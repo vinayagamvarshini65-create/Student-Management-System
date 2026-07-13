@@ -5,7 +5,7 @@ require("dotenv").config();
 const connectDB = require("./config/db");
 const cors = require("cors");
 const studentRoutes = require("./routes/studentRoutes");
-const authRoutes = require("./routes/authRoutes");
+//const authRoutes = require("./routes/authRoutes");
 
 dotenv.config();
 
@@ -21,7 +21,7 @@ app.use(cookieParser());
 app.use(express.json());
 
 app.use("/api/students", studentRoutes);
-app.use("/api/auth", authRoutes);
+//app.use("/api/auth", authRoutes);
 
 const PORT = process.env.PORT || 5000;
 
