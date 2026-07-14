@@ -151,6 +151,3 @@ PORT=5000
 - Advanced Search and Filtering
 
 ---
-## License
-
-This project is developed for educational and portfolio purposes.
